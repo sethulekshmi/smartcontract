@@ -732,7 +732,7 @@ func (t *SimpleChaincode) update_CARAT(stub *shim.ChaincodeStub, d Diamond, call
 //=================================================================================================================================
 //	 update_SYMMETRY
 //=================================================================================================================================
-func (t *SimpleChaincode) update_symmetry(stub *shim.ChaincodeStub, v Vehicle, caller string, caller_affiliation int, new_value string) ([]byte, error) {
+func (t *SimpleChaincode) update_symmetry(stub *shim.ChaincodeStub, d Diamond, caller string, caller_affiliation int, new_value string) ([]byte, error) {
 	
 	if 		d.Status			== STATE_CUTTING	&&
 			d.Owner				== caller				&& 
