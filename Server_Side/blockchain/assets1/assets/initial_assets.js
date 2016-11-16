@@ -3,7 +3,7 @@ var simple_scenario = {
 		{
 			"Date": "05/07/2016",
 			"Timestamp": "08:05:02",
-			"diamondat": "Toyota",
+			"diamondat": "2.0",
 			"Cut": "Point",
 			"Colour": "Blue",
 			"Clarity": "VVS1",
@@ -15,7 +15,7 @@ var simple_scenario = {
 		{
 			"Date": "10/07/2016",
 			"Timestamp": "10:10:05",
-			"diamondat": "Jaguar",
+			"diamondat": "2.0",
 			"Cut": "Crown_facet",
 			"Colour": "Pink",
 			"Clarity": "VS1",
